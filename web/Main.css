@@ -1,0 +1,30 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+iframe{
+    margin-top: 20px;
+    height: 90%;
+    width: 90%;
+}
+
+#done{
+    position: relative;
+    margin-top: -300px;
+}
+
+header,footer{
+    background-color: lightgray;
+    height: 6%;
+}
+
+footer, #lblName{
+    font-size: 20px;
+    font-style: italic;
+}
+
+section{
+    height: 85%;
+    background: lightblue;
+}

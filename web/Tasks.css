@@ -1,0 +1,44 @@
+#taskTable{
+    margin-left: 40%;
+    font-size: 20px;
+}
+
+#delTask, #editTask{
+    margin-right: 15px;
+    width: 35px;
+}
+
+#newDiv{
+    margin-left: 50px;
+}
+
+section{
+    margin-top: 15px;
+}
+
+span{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h5{
+    
+}
+
+#logof, .save, #deleteAll{
+    width: 15%;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+#delTask, #deleteAll{
+    background-color: lightcoral;
+}
+
+
+#logof{
+    position: fixed;
+    right: 10%;
+    margin-left: 5%;
+    margin-top: 10px;
+}

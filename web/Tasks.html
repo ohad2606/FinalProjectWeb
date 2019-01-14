@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="bootstrap.css">
+        <link rel="stylesheet" href="AppDesign.css">
+        <link  rel="stylesheet" href="Tasks.css">
+        <script src="Tasks.js"></script>
+        <script src="jquery.js"></script>
+        <title></title>
+    </head>
+    <body>
+        <header class="text-center">
+            <span id="title">Tasks list</span>
+            <button id="logof" onclick="logofBtn()">Logof</button>
+            <fieldset>
+                <span class="title">Craete new task</span>
+                <br/>
+                <input id="txtInput" type="text" placeholder="TO DO"/>
+                <button class="save" onclick="addTask()">&#10003;</button>
+                <button id="deleteAll" onclick="deleteAll()">clean</button>
+            </fieldset>
+        </header>
+        <section id="sec1">
+        </section>
+        <section id="sec2">
+            <h5>Completed:</h5>
+        </section>
+    </body>
+</html>

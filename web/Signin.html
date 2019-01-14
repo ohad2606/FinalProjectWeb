@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="bootstrap.css">
+        <link rel="stylesheet" href="AppDesign.css">
+        <link rel="stylesheet" href="Signin.css">
+        <script src="Signin.js"></script>
+        <script src="Main.js"></script>
+        <script src="jquery.js"></script>
+        <title></title>
+    </head>
+    <body class="text-center">
+        <span id="title">Please sign in</span>
+        <section>
+            <div class="container">
+                <input id="userName" placeholder="&#9924; User name"/>
+                <br/>
+                <input id="password" type="password" placeholder="&#x1f512; Password"/>
+            </div>
+            <div>
+                <input  id="chkRemember" class="rememberChk" type="checkbox"/>
+                <span>Remeber me</span>
+            </div>
+            <div>
+                <button class="btn-success" onclick="signinBtn()">Sign-In</button>
+            </div>
+            <div>
+                <a target="page" href="Forget.html">forget password?</a>
+            </div>
+            <div>
+                <a target="page" href="Register.html">New user? create acount</a>
+            </div>
+        </section>
+    </body>
+</html>
